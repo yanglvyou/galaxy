@@ -1,6 +1,9 @@
 {
-  "name": "@galaxy/vant",
+  "name": "galaxy-vant",
   "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -15,7 +18,13 @@
     "lint": "vant-cli lint",
     "build": "vant-cli build",
     "build:site": "vant-cli build-site",
+    "release": "vant-cli release",
+    "release:npm": "npx vant-cli release",
     "release:site": "pnpm build:site && npx gh-pages -d site-dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yanglvyou/galaxy"
   },
   "author": "",
   "nano-staged": {

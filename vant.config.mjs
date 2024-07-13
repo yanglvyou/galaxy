@@ -1,5 +1,5 @@
 export default {
-  name: '@galaxy/vant',
+  name: 'galaxy-vant',
   build: {
     css: {
       preprocessor: 'less',
@@ -9,7 +9,7 @@ export default {
     },
   },
   site: {
-    title: '@galaxy/vant',
+    title: 'galaxy-vant',
     logo: 'https://fastly.jsdelivr.net/npm/@vant/assets/logo.png',
     nav: [
       {
