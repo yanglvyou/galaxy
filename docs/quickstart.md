@@ -4,14 +4,14 @@
 
 ```bash
 # 通过 npm
-npm i galaxy
+npm i @galaxy/vant
 
 # 通过 yarn
-yarn add galaxy
+yarn add @galaxy/vant
 
 # 通过 pnpm
-pnpm add galaxy
+pnpm add @galaxy/vant
 
 # 通过 bun
-bun add galaxy
+bun add @galaxy/vant
 ```
