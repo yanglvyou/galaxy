@@ -5,7 +5,7 @@
     "access": "public"
   },
   "description": "",
-  "main": "lib/index.js",
+  "main": "lib/galaxy-vant.cjs.js",
   "module": "es/index.js",
   "style": "lib/index.css",
   "typings": "lib/index.d.ts",
@@ -52,5 +52,8 @@
   "browserslist": [
     "Chrome >= 51",
     "iOS >= 10"
-  ]
+  ],
+  "dependencies": {
+    "@vant/use": "^1.6.0"
+  }
 }
