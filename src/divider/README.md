@@ -23,7 +23,7 @@ app.use(Divider);
 默认渲染一条水平分割线。
 
 ```html
-<van-divider />
+<galaxy-divider />
 ```
 
 ### 展示文本
@@ -31,7 +31,7 @@ app.use(Divider);
 通过插槽在可以分割线中间插入内容。
 
 ```html
-<van-divider>文本</van-divider>
+<galaxy-divider>文本</galaxy-divider>
 ```
 
 ### 内容位置
@@ -39,8 +39,8 @@ app.use(Divider);
 通过 `content-position` 指定内容所在位置。
 
 ```html
-<van-divider content-position="left">文本</van-divider>
-<van-divider content-position="right">文本</van-divider>
+<galaxy-divider content-position="left">文本</galaxy-divider>
+<galaxy-divider content-position="right">文本</galaxy-divider>
 ```
 
 ### 虚线
@@ -48,7 +48,7 @@ app.use(Divider);
 添加 `dashed` 属性使分割线渲染为虚线。
 
 ```html
-<van-divider dashed>文本</van-divider>
+<galaxy-divider dashed>文本</galaxy-divider>
 ```
 
 ### 自定义样式
@@ -56,23 +56,23 @@ app.use(Divider);
 可以直接通过 `style` 属性设置分割线的样式。
 
 ```html
-<van-divider
+<galaxy-divider
   :style="{ color: '#1989fa', borderColor: '#1989fa', padding: '0 16px' }"
 >
   文本
-</van-divider>
+</galaxy-divider>
 ```
 
 ### 垂直
 
 ```html
-<van-divider vertical />
+<galaxy-divider vertical />
 文本
-<van-divider vertical dashed />
+<galaxy-divider vertical dashed />
 文本
-<van-divider vertical :hairline="false" />
+<galaxy-divider vertical :hairline="false" />
 文本
-<van-divider vertical :style="{ borderColor: '#1989fa' }" />
+<galaxy-divider vertical :style="{ borderColor: '#1989fa' }" />
 ```
 
 ## API
@@ -106,14 +106,14 @@ import type { DividerProps, DividerContentPosition } from 'vant';
 
 组件提供了下列 CSS 变量，可用于自定义样式，使用方法请参考 [ConfigProvider 组件](#/zh-CN/config-provider)。
 
-| 名称                              | 默认值                    | 描述 |
-| --------------------------------- | ------------------------- | ---- |
-| --van-divider-margin              | _var(--van-padding-md) 0_ | -    |
-| --van-divider-vertical-margin     | _0 var(--van-padding-xs)_ | -    |
-| --van-divider-text-color          | _var(--van-text-color-2)_ | -    |
-| --van-divider-font-size           | _var(--van-font-size-md)_ | -    |
-| --van-divider-line-height         | _24px_                    | -    |
-| --van-divider-border-color        | _var(--van-border-color)_ | -    |
-| --van-divider-content-padding     | _var(--van-padding-md)_   | -    |
-| --van-divider-content-left-width  | _10%_                     | -    |
-| --van-divider-content-right-width | _10%_                     | -    |
+| 名称                                 | 默认值                       | 描述 |
+| ------------------------------------ | ---------------------------- | ---- |
+| --galaxy-divider-margin              | _var(--galaxy-padding-md) 0_ | -    |
+| --galaxy-divider-vertical-margin     | _0 var(--galaxy-padding-xs)_ | -    |
+| --galaxy-divider-text-color          | _var(--galaxy-text-color-2)_ | -    |
+| --galaxy-divider-font-size           | _var(--galaxy-font-size-md)_ | -    |
+| --galaxy-divider-line-height         | _24px_                       | -    |
+| --galaxy-divider-border-color        | _var(--galaxy-border-color)_ | -    |
+| --galaxy-divider-content-padding     | _var(--galaxy-padding-md)_   | -    |
+| --galaxy-divider-content-left-width  | _10%_                        | -    |
+| --galaxy-divider-content-right-width | _10%_                        | -    |

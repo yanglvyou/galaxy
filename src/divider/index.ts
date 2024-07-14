@@ -9,6 +9,6 @@ export type { DividerThemeVars } from './types';
 
 declare module 'vue' {
   export interface GlobalComponents {
-    VanDivider: typeof Divider;
+    GalaxyDivider: typeof Divider;
   }
 }

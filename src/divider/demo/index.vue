@@ -1,25 +1,25 @@
 <script setup lang="ts">
-import VanDivider from '..';
+import GalaxyDivider from '..';
 </script>
 
 <template>
   <demo-block title="基础用法">
-    <van-divider content-position="left" />
+    <galaxy-divider content-position="left" />
   </demo-block>
 </template>
 
 <style lang="less">
 .demo-divider {
-  background-color: var(--van-background-2);
+  background-color: var(--galaxy-background-2);
 
-  .van-doc-demo-block__title {
-    padding-top: var(--van-padding-md);
+  .galaxy-doc-demo-block__title {
+    padding-top: var(--galaxy-padding-md);
   }
 
   .content {
-    padding: 0 var(--van-padding-md);
-    color: var(--van-text-color-2);
-    font-size: var(--van-font-size-md);
+    padding: 0 var(--galaxy-padding-md);
+    color: var(--galaxy-text-color-2);
+    font-size: var(--galaxy-font-size-md);
   }
 }
 </style>
