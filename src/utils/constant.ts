@@ -1,5 +1,5 @@
 import type { InjectionKey } from 'vue';
-import type { FormProvide } from '../form/types';
+// import type { FormProvide } from '../form/types';
 
 export const BORDER = 'van-hairline';
 export const BORDER_TOP = `${BORDER}--top`;
@@ -12,7 +12,7 @@ export const BORDER_UNSET_TOP_BOTTOM = `${BORDER}-unset--top-bottom`;
 
 export const HAPTICS_FEEDBACK = 'van-haptics-feedback';
 
-export const FORM_KEY: InjectionKey<FormProvide> = Symbol('van-form');
+// export const FORM_KEY: InjectionKey<FormProvide> = Symbol('van-form');
 
 // Same as the default value of iOS long press time
 // https://developer.apple.com/documentation/uikit/uilongpressgesturerecognizer/1616423-minimumpressduration
